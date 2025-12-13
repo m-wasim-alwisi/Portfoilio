@@ -58,7 +58,7 @@ export const projects: Project[] = [
   image: '/ai.jpg',
   slug: 'nextjs-ai-chat',
   gallery: [
-     '/ai.jpg',
+     '/Ai.jpg',
     // '/images/ai-chat-2.png',
     // '/images/ai-chat-3.png'
   ],
