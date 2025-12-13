@@ -7,6 +7,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import {projects} from "@/app/lib/projects";
+import Footer from '@/components/Footer';
 
 export default function ProjectPage() {
   const params = useParams();
@@ -135,7 +136,11 @@ export default function ProjectPage() {
             ← Back to Home
           </Link>
         </motion.div>
+        <br />
+
       </section>
+      <Footer/>
     </div>
+    
   );
 }
